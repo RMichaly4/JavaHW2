@@ -22,4 +22,18 @@ public class User {
         this.friends = friends;
         this.roles = roles;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address=" + address +
+                ", email='" + email + '\'' +
+                ", phoneNumbers=" + phoneNumbers +
+                ", friends=" + friends +
+                ", roles=" + roles +
+                '}';
+    }
 }
