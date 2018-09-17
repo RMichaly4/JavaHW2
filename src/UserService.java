@@ -10,5 +10,8 @@ public class UserService {
 
         final String ID = String.valueOf(new Random().nextInt(9999));
         User User01 = new User("id" + ID,"John", "Smith", Arrays.asList(Address01, Address02), "user1@x.xx", Arrays.asList("+998877","+112233"),Arrays.asList(), Arrays.asList("admin","manager"));
+
+        System.out.println(User01.id +" "+ User01.firstName +" "+ User01.lastName +" "+ User01.addresses );
     }
+
 }
