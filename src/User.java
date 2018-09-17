@@ -5,7 +5,7 @@ public class User {
     private String id;
     private String firstName;
     private String lastName;
-    private List <String> adresses;
+    private List <Address> adresses;
     private String email;
     private List <String> phoneNumbers;
     private List <User> friends;
@@ -19,5 +19,4 @@ public class User {
         this.phoneNumbers = phoneNumbers;
         this.friends = friends;
     }
-
 }
