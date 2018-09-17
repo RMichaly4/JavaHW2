@@ -26,10 +26,10 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", address=" + address +
+                id +
+                ", " + firstName +
+                " " + lastName +
+                ", " + address +
                 ", email='" + email + '\'' +
                 ", phoneNumbers=" + phoneNumbers +
                 ", friends=" + friends +
