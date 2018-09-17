@@ -1,7 +1,7 @@
 # javaHW2
 домашнее задание:
 1. Создать класс Address с полями city, country, street, postalCode
-2. Создать класс User c полями id, firstName, lastName, address, email, List<String>phoneNumbers, List<User> friends.
+2. Создать класс User c полями id, firstName, lastName, address, email, List<String>phoneNumbers, List<User> friends, List<String> roles.
 3. Создать класс UserService с методом который возвращает N юзеров, желательно рандомно заполненых данными.
 4. написать тесты(методы), которые получают список юзеров из сервиса и выводят:
 4.1: у скольки юзеров нет ни одного phoneNumber'a
