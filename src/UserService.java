@@ -7,6 +7,6 @@ public class UserService {
         Address Address01 = new Address("Minsk","Belarus","Kalinovskogo 49-58","220103");
 
         final String ID = String.valueOf(new Random().nextInt(9999));
-        User User01 = new User("id" + ID,"John", "Smith", Address01, "user1@x.xx", ["+375251112233","+375292223344"],
+        User User01 = new User("id" + ID,"John", "Smith", Address01, "user1@x.xx", ("+998877");
     }
 }
