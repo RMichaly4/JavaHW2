@@ -12,5 +12,4 @@ public class Address {
         this.street = street;
         this.postalCode = postalCode;
     }
-
 }
