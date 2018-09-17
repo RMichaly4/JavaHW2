@@ -14,6 +14,7 @@ public class User {
     User(String id, String firstName, String lastName, List <Address> addresses, String email, List <String> phoneNumbers, List<User> friends) {
         this.id = id;
         this.firstName = firstName;
+        this.lastName = lastName;
         this.addresses = addresses;
         this.email = email;
         this.phoneNumbers = phoneNumbers;
